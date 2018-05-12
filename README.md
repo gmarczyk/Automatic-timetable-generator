@@ -20,6 +20,7 @@ My engineers diploma thesis and the application. It is an web application design
 - Apache Tomcat
 - PostgreSQL + pgAdmin
 - RabbitMQ
+- BCrypt
 
 <b>Architecture (techniques, concepts, patterns):</b>
 - Domain Driven Design (DDD)
