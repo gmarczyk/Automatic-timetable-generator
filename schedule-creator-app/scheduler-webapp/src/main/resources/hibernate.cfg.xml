@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/schedulerDB</property>
+        <property name="hibernate.connection.username">dbAdmin</property>
+        <property name="hibernate.connection.password">dbAdmin1</property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
+
+        <!-- Print executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <!-- Drop andcreateByInternalPaneleate all database on startup -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+
+        <!-- Annotated entity classes -->
+        <mapping class="com.scheduler.shared.users.domain.users.User"/>
+        <mapping class="com.scheduler.shared.users.domain.multitenancy.Tenant"/>
+        <mapping class="com.scheduler.domain.teacher.Teacher"/>
+        <mapping class="com.scheduler.domain.subjects.Subject"/>
+        <mapping class="com.scheduler.domain.grades.Grade"/>
+        <mapping class="com.scheduler.domain.classrooms.Classroom"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.schedule.model.ScheduleEvent"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.entity.model.PropertyGenerationFailure"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.schedule.model.proposal.EventProposal"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.collision.model.ConditionalCollision"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.collision.model.EntityInconsistency"/>
+        <mapping class="com.scheduler.shared.scheduling.domain.condition.model.ScheduleCondition"/>
+
+    </session-factory>
+
+</hibernate-configuration>
