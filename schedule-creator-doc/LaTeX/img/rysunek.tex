@@ -1,0 +1,62 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish,british]{babel}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{filecontents}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usetikzlibrary{arrows}
+
+
+ 
+ 
+
+\begin{filecontents}{rysunek.dat}
+param	phi01	phi02	phi05	phi15	phi2	phi3	phi5	phi10
+0	29.9618	20.5023	12.6527	0.037364	1.15216	6.58955	14.0438	19.9842
+25	28.056	22.3099	12.5832	0.084556	2.28704	9.22425	16.1171	20.9089
+50	31.5488	26.0965	22.3487	0.143228	3.22193	10.8344	17.1966	21.5369
+75	29.3939	27.3141	16.8333	0.200084	3.95722	12.2729	18.5426	22.3541
+100	29.7955	24.2053	18.5374	0.266858	4.6438	12.8901	18.7784	22.3599
+125	29.3248	26.9464	25.1034	0.382564	5.25608	13.8675	19.2544	22.6595
+150	31.0911	28.4169	21.1002	0.521065	6.12551	14.7734	20.0154	23.0736
+175	31.2772	28.912	33.7044	0.580476	6.59268	15.4653	20.609	23.3357
+200	30.9612	30.0466	20.9758	0.731163	7.36128	16.0743	20.6963	23.2772
+
+\end{filecontents}
+
+ 
+
+\begin{document}
+%
+\begin{tikzpicture}
+\begin{axis}[width=10cm,height=8cm , xlabel=parametr, ylabel={$E_v$},
+             legend style={at={(1.3,0.95)}}
+            ]
+   \addplot [mark=*,mark size = 1] table [x=param, y=phi01, column sep=tab] {rysunek.dat};
+   \addplot [mark=o,mark size = 1] table [x=param, y=phi02, column sep=tab] {rysunek.dat};
+   \addplot [mark=square,mark size = 1] table [x=param, y=phi05, column sep=tab] {rysunek.dat};
+    \addplot [dashed,mark=*,mark size = 1,mark options={thin,solid}] table [x=param, y=phi15, column sep=tab] {rysunek.dat};
+   \addplot [dashed,mark=o,mark size = 1,mark options={thin,solid}] table [x=param, y=phi2, column sep=tab] {rysunek.dat};
+   \addplot [dashed,mark=square,mark size = 1,mark options={thin,solid}] table [x=param, y=phi3, column sep=tab] {rysunek.dat};
+   \addplot [dashed,mark=star,mark size = 1,mark options={thin,solid}] table [x=param, y=phi5, column sep=tab] {rysunek.dat};
+   \addplot [dashed,mark=diamond,mark size = 1,mark options={thin,solid}] table [x=param, y=phi10, column sep=tab] {rysunek.dat};
+   
+ 
+
+   \addlegendentry{$\xi=0.1$};
+   \addlegendentry{$\xi=0.2$};
+   \addlegendentry{$\xi=0.5$};
+   \addlegendentry{$\xi=1.5$};
+   \addlegendentry{$\xi=2.0$};
+   \addlegendentry{$\xi=3.0$};
+   \addlegendentry{$\xi=5.0$};
+   \addlegendentry{$\xi=10.0$};
+   
+\end{axis}
+\end{tikzpicture}
+%
+\end{document}

@@ -1,0 +1,27 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: plplain.bst
+Database file #1: bibliografia.bib
+I was expecting a `,' or a `}'---line 46 of file bibliografia.bib
+ :  
+ :  year      = 2000
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "id:maximeKlusman" isn't style-file defined
+--line 79 of file bibliografia.bib
+A bad cross reference---entry "id:Multitenancy"
+refers to entry "conf/closer/2012", which doesn't exist
+Warning--I didn't find a database entry for "conf/closer/2012"
+Warning--to sort, need author or key in id:aScTimetables
+Warning--to sort, need author or key in id:nPlan
+Warning--to sort, need author or key in id:Maven
+Warning--to sort, need author or key in id:MVNrepository
+Warning--to sort, need author or key in id:Spring
+Warning--to sort, need author or key in id:Vaadin
+Warning--to sort, need author or key in id:ApacheTomcat
+Warning--to sort, need author or key in id:PostgreSQL
+Warning--to sort, need author or key in id:pgAdmin
+Warning--to sort, need author or key in id:Hibernate
+Warning--to sort, need author or key in id:RabbitMQ
+Warning--to sort, need author or key in id:ieee2011_Architecture
+Warning--to sort, need author or key in id:ieee2000_Architecture
+(There were 2 error messages)

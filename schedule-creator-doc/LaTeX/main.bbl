@@ -1,0 +1,125 @@
+\begin{thebibliography}{10}
+
+\bibitem{id:ApacheTomcat}
+Apache tomcat.
+\newblock \url{http://tomcat.apache.org/} [data dostępu: 1 stycznia 2018].
+
+\bibitem{id:aScTimetables}
+asctimetables.
+\newblock \url{https://www.asctimetables.com/} [data dostępu: 1 stycznia
+  2018].
+
+\bibitem{id:Hibernate}
+Hibernate.
+\newblock \url{http://hibernate.org/} [data dostępu: 1 stycznia 2018].
+
+\bibitem{id:Maven}
+Maven.
+\newblock \url{https://maven.apache.org/} [data dostępu: 1 stycznia 2018].
+
+\bibitem{id:MVNrepository}
+Maven repository.
+\newblock \url{https://mvnrepository.com/} [data dostępu: 27 grudnia 2017].
+
+\bibitem{id:nPlan}
+nplan.
+\newblock \url{http://nszkola.pl/program-plan-lekcji} [data dostępu: 1
+  stycznia 2018].
+
+\bibitem{id:pgAdmin}
+pgadmin.
+\newblock \url{https://www.pgadmin.org/} [data dostępu: 1 stycznia 2018].
+
+\bibitem{id:PostgreSQL}
+Postgresql.
+\newblock \url{https://www.postgresql.org/} [data dostępu: 1 stycznia 2018].
+
+\bibitem{id:RabbitMQ}
+Rabbitmq.
+\newblock \url{https://www.rabbitmq.com/} [data dostępu: 26 grudnia 2017].
+
+\bibitem{id:ieee2000_Architecture}
+Recommended practice for architectural description of software-intensive
+  systems.
+\newblock {IEEE} Std 1471-2000.
+
+\bibitem{id:Spring}
+Spring.
+\newblock \url{https://spring.io/} [data dostępu: 28 grudnia 2017].
+
+\bibitem{id:Vaadin}
+Vaadin.
+\newblock \url{https://vaadin.com/} [data dostępu: 28 grudnia 2017].
+
+\bibitem{id:ieee2011_Architecture}
+Systems and software engineering -- architecture description, 2011.
+\newblock ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE
+  Std 1471-2000).
+
+\bibitem{id:bylina}
+Jarosław Bylina,  Beata Bylina.
+\newblock {\em Przegląd języków i paradygmatów programowania}.
+\newblock Uniwersytet Marii Curie-Skłodowskiej w Lublinie, Lublin, 2011.
+
+\bibitem{id:EDA_GartnerSummit}
+Mani~K. Chandy.
+\newblock Event-driven applications: Costs, benefits and design approaches,
+  2006.
+
+\bibitem{id:ibm_Architecture}
+Peter Eeles.
+\newblock What is a software architecture?
+\newblock
+  \url{https://www.ibm.com/developerworks/rational/library/feb06/eeles/}, 2006.
+
+\bibitem{id:DDD_Evans}
+Eric Evans.
+\newblock {\em Domain-Driven Design}.
+\newblock Helion, Gliwice, 2015.
+
+\bibitem{id:IOC_DI_Fowler}
+Martin Fowler.
+\newblock Inversion of control containers and the dependency injection pattern.
+\newblock \url{https://www.martinfowler.com/articles/injection.html} [data
+  dostępu: 30 grudnia 2017].
+
+\bibitem{id:hohpe2006programming}
+Gregor Hohpe.
+\newblock Programming without a call stack – event-driven architectures.
+\newblock {\em Objektspektrum}, 2, 2006.
+
+\bibitem{id:maximeKlusman}
+Maxime Klusman.
+\newblock Event driven architecture in software development projects, 2016.
+
+\bibitem{id:Multitenancy}
+Rouven Krebs, Christof Momm, Samuel Kounev.
+\newblock Architectural concerns in multi-tenant saas applications.
+\newblock Frank Leymann, Ivan~I. Ivanov, Marten van Sinderen, Tony Shan,
+  redaktorzy, {\em CLOSER}, strony 426--431. SciTePress, 2012.
+
+\bibitem{id:CleanCode}
+Robert~C. Martin.
+\newblock {\em Czysty kod. Podręcznik dobrego programisty}.
+\newblock Helion, Gliwice, 2010.
+
+\bibitem{id:EDA_BrendaMichelson}
+M.~Michelson.
+\newblock Event-driven architecture overview.
+\newblock {\em Patricia Seybold Group, Feb}, 2006.
+
+\bibitem{id:sobotka_SDJ-DDD}
+Sławomir Sobótka.
+\newblock Domain driven design - sposób na projektowanie złożonych modeli
+  biznesowych.
+\newblock \url{https://bottega.com.pl/pdf/materialy/sdj-ddd.pdf}, [data
+  dostępu: 01 stycznia 2018].
+
+\bibitem{id:sobotka_DDD1}
+Sławomir Sobótka.
+\newblock Domain driven design krok po kroku. część i: Podstawowe building
+  blocks ddd.
+\newblock \url{https://bottega.com.pl/pdf/materialy/ddd/ddd1.pdf}, [data
+  dostępu: 01 stycznia 2018].
+
+\end{thebibliography}
