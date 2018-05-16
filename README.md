@@ -10,7 +10,7 @@ My engineers diploma thesis and the application. It is an web application design
 <b>Repository contains:</b>
 - the product itself <b>(schedule-creator-app)</b>
 - project of thesis in LaTeX <b>(schedule-creator-doc)</b>
-- thesis in <b>pdf</b>
+- thesis in <b>pdf</b> (only in polish language)
 
 <b>Technologies used in application:</b>
 - Maven
